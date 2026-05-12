@@ -1,6 +1,11 @@
 <div class="text-white">
   <app-header></app-header>
   <main class="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
-    <router-outlet></router-outlet>
+    <!-- All sections are rendered one after another -->
+    <section id="home"><app-home></app-home></section>
+    <section id="about"><app-about></app-about></section>
+    <section id="expertise"><app-expertise></app-expertise></section>
+    <section id="projects"><app-project></app-project></section>
+    <section id="contact"><app-contact></app-contact></section>
   </main>
 </div>

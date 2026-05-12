@@ -6,7 +6,7 @@
       <!-- Brand/Logo -->
       <div class="flex-shrink-0">
         <h1 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white cursor-pointer">
-          <a routerLink="/">{{ 'header.MY_NAME' | translate }}</a>
+          <a routerLink="/" fragment="home">{{ 'header.PORTFOLIO' | translate }}</a>
         </h1>
       </div>
 
@@ -14,26 +14,46 @@
       <div class="hidden md:flex items-center space-x-6">
         <div class="flex items-baseline space-x-4">
           <a
-            routerLink="/about"
+            routerLink="/"
+            fragment="home"
             class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors"
+            [class.font-medium]="translate.currentLang === 'en'"
+            [class.font-bold]="translate.currentLang === 'km'"
+          >
+            {{ 'header.HOME' | translate }} </a
+          ><a
+            routerLink="/"
+            fragment="about"
+            class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors"
+            [class.font-medium]="translate.currentLang === 'en'"
+            [class.font-bold]="translate.currentLang === 'km'"
           >
             {{ 'header.ABOUT' | translate }}
           </a>
           <a
-            routerLink="/experience"
+            routerLink="/"
+            fragment="expertise"
             class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors"
+            [class.font-medium]="translate.currentLang === 'en'"
+            [class.font-bold]="translate.currentLang === 'km'"
           >
-            {{ 'header.EXPERIENCE' | translate }}
+            {{ 'header.EXPERTISE' | translate }}
           </a>
           <a
-            routerLink="/projects"
+            routerLink="/"
+            fragment="projects"
             class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors"
+            [class.font-medium]="translate.currentLang === 'en'"
+            [class.font-bold]="translate.currentLang === 'km'"
           >
             {{ 'header.PROJECTS' | translate }}
           </a>
           <a
-            routerLink="/contact"
+            routerLink="/"
+            fragment="contact"
             class="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white px-3 py-2 text-sm font-medium transition-colors"
+            [class.font-medium]="translate.currentLang === 'en'"
+            [class.font-bold]="translate.currentLang === 'km'"
           >
             {{ 'header.CONTACT' | translate }}
           </a>
@@ -129,23 +149,42 @@
   >
     <div class="px-2 pt-2 pb-3 space-y-1">
       <a
-        routerLink="/about"
+        routerLink="/"
+        fragment="home"
         class="block text-gray-600 dark:text-gray-300 px-3 py-2 text-base font-medium"
+        [class.font-medium]="translate.currentLang === 'en'"
+        [class.font-bold]="translate.currentLang === 'km'"
+        >{{ 'header.HOME' | translate }}</a
+      ><a
+        routerLink="/"
+        fragment="about"
+        class="block text-gray-600 dark:text-gray-300 px-3 py-2 text-base font-medium"
+        [class.font-medium]="translate.currentLang === 'en'"
+        [class.font-bold]="translate.currentLang === 'km'"
         >{{ 'header.ABOUT' | translate }}</a
       >
       <a
-        routerLink="/experience"
+        routerLink="/"
+        fragment="expertise"
         class="block text-gray-600 dark:text-gray-300 px-3 py-2 text-base font-medium"
-        >{{ 'header.EXPERIENCE' | translate }}</a
+        [class.font-medium]="translate.currentLang === 'en'"
+        [class.font-bold]="translate.currentLang === 'km'"
+        >{{ 'header.EXPERTISE' | translate }}</a
       >
       <a
-        routerLink="/projects"
+        routerLink="/"
+        fragment="projects"
         class="block text-gray-600 dark:text-gray-300 px-3 py-2 text-base font-medium"
+        [class.font-medium]="translate.currentLang === 'en'"
+        [class.font-bold]="translate.currentLang === 'km'"
         >{{ 'header.PROJECTS' | translate }}</a
       >
       <a
-        routerLink="/contact"
+        routerLink="/"
+        fragment="contact"
         class="block text-gray-600 dark:text-gray-300 px-3 py-2 text-base font-medium"
+        [class.font-medium]="translate.currentLang === 'en'"
+        [class.font-bold]="translate.currentLang === 'km'"
         >{{ 'header.CONTACT' | translate }}</a
       >
     </div>
