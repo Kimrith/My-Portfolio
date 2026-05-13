@@ -10,14 +10,15 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class Expertise {
   frontendSkills = [
-    { name: 'React JS', level: 85 },
-    { name: 'Tailwind CSS / Bootstrap', level: 95 },
-    { name: 'JavaScript / TypeScript', level: 88 },
+    { name: 'React JS', level: 80 },
+    { name: 'Angular', level: 90 },
+    { name: 'Tailwind CSS / Bootstrap', level: 90 },
+    { name: 'JavaScript / TypeScript', level: 80 },
   ];
 
   backendSkills = [
     { name: 'ASP.NET Core (.NET)', level: 50 },
-    { name: 'Node.js/Express', level: 85 },
+    { name: 'Node.js/Express', level: 80 },
     { name: 'NestJS', level: 80 },
   ];
 
