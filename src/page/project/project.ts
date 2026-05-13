@@ -12,18 +12,18 @@ export class Project {
     {
       title: 'Hotel Rental System',
       description:
-        'A comprehensive system featuring role-based dashboards (Admin, Owner, Customer) and secure payment integrations.',
-      image: 'assets/projects/hotel.jpg', // Replace with your project screenshot
-      tech: ['Angular', 'NestJS', 'PostgreSQL', 'Tailwind'],
+        'A robust hospitality platform featuring RBAC dashboards for Admins, Owners, and Customers. Integrated with Google OAuth 2.0 for seamless SSO and secure payment gateways for real-time bookings.',
+      image: 'assets/projects/hotel.jpg',
+      tech: ['Java Thymeleaf', 'PostgreSQL', 'Spring Security'],
       link: '#',
       github: '#',
     },
     {
       title: 'POS & QR Order System',
       description:
-        'Restaurant management system with KHQR integration for real-time mobile payments and QR-based ordering.',
+        'Cafe management system with KHQR integration for real-time mobile payments and QR-based ordering.',
       image: 'assets/projects/pos.jpg',
-      tech: ['.NET Core', 'Angular', 'KHQR API'],
+      tech: ['.NET Core', 'ReactJs', 'KHQR API', 'SQL Server'],
       link: '#',
       github: '#',
     },

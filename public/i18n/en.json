@@ -14,14 +14,31 @@
     "VIEW_WORK": "View My Work",
     "CONTACT": "Contact Me"
   },
-  "ABOUT": {
+  "about": {
     "SECTION_TITLE": "About",
     "SECTION_SUB": "Me",
-    "DOWNLOAD_CV": "Download CV",
-    "EDUCATION": "Education",
+    "NAME": "My name is Chay Kimrith",
+    "TITLE": "Full-Stack Developer",
+    "DOWNLOAD_CV": "Download Resume",
     "EXPERIENCE": "Experience",
-    "SETEC_INFO": "Year 3 Student • Management Information Systems",
+    "GOV_INFO": "Ministry of Interior",
     "MOI_INFO": "3 Months Intern • 2026",
-    "MOI_DESC": "Developed responsive and user-friendly web applications, gaining hands-on experience in government-scale projects."
+    "MOI_DESC": "Developed responsive and user-friendly web applications, gaining hands-on experience in government-scale projects.",
+    "EDUCATION": "Education",
+    "SETEC": "SETEC Institute",
+    "SETEC_INFO": "Year 4 Student • Management Information Systems",
+    "SETEC_DESC": "Deepening knowledge in Full-Stack development, Database management, and Software Architecture"
+  },
+  "expertise": {
+    "TECHNICAL": "Technical",
+    "EXPERTISE": "Expertise",
+    "DESCRIPTION": "My technical stack and proficiency levels",
+    "FRONTEND": "Frontend Development",
+    "BACKEND": "Backend & Systems",
+    "DATABASE": "Databases & Tools",
+    "INTEGRATIONS": "Third-Party Integrations",
+    "TRAINING": "Training",
+    "STACK": "Stack",
+    "CURRENTLTY": "Technologies I am currently mastering"
   }
 }
