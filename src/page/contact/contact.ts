@@ -11,7 +11,7 @@ export class Contact {
   contactMethods = [
     {
       label: 'Email',
-      value: 'cheykimrithdev@example.com',
+      value: 'cheykimrithdev@gmail.com',
       icon: 'fas fa-envelope',
       color: 'text-blue-500',
     },
