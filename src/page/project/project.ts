@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+declare var Swal: any;
 
 @Component({
   selector: 'app-project',
@@ -8,6 +9,15 @@ import { Component } from '@angular/core';
   styleUrl: './project.css',
 })
 export class Project {
+  showLocalAlert(projectTitle: string) {
+    Swal.fire({
+      title: 'Project is Local',
+      text: `The ${projectTitle} is currently running in a local environment and is not hosted publicly yet.`,
+      icon: 'info',
+      confirmButtonText: 'Got it!',
+      confirmButtonColor: '#2563eb',
+    });
+  }
   projects = [
     {
       title: 'Hotel Rental System',

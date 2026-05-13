@@ -14,7 +14,11 @@
     <div class="space-y-4">
       <div
         *ngFor="let method of contactMethods"
-        class="flex items-center p-4 bg-white dark:bg-gray-800/40 rounded-2xl border border-gray-100 dark:border-gray-700/50 shadow-sm transition-transform hover:scale-105"
+        class="flex items-center p-4 bg-white dark:bg-gray-800/40 rounded-2xl border border-gray-100 dark:border-gray-700/50 shadow-sm transition-all"
+        [class.hover:scale-105]="!method.disabled"
+        [class.opacity-50]="method.disabled"
+        [class.grayscale]="method.disabled"
+        [class.cursor-not-allowed]="method.disabled"
       >
         <!-- Icon Container -->
         <div
@@ -32,9 +36,12 @@
             {{ method.label }}
           </p>
 
-          <!-- Clickable Link Logic -->
+          <!-- Show Link only if not disabled -->
           <ng-container
-            *ngIf="method.label === 'Telegram' || method.label === 'LinkedIn'; else plainText"
+            *ngIf="
+              (method.label === 'Telegram' || method.label === 'LinkedIn') && !method.disabled;
+              else plainText
+            "
           >
             <a
               [href]="method.value"
@@ -45,9 +52,9 @@
             </a>
           </ng-container>
 
-          <!-- Plain Text for Location/Phone/Email -->
+          <!-- Plain Text for Phone, Location, or Disabled LinkedIn -->
           <ng-template #plainText>
-            <p class="text-gray-900 dark:text-white font-medium">
+            <p class="text-gray-900 dark:text-white font-medium" [class.italic]="method.disabled">
               {{ method.value }}
             </p>
           </ng-template>

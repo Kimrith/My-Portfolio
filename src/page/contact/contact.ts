@@ -35,9 +35,10 @@ export class Contact {
     },
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
+      value: 'Not Available', // Changed from link to text
       icon: 'fab fa-linkedin',
-      color: 'text-blue-700',
+      color: 'text-gray-400', // Gray color for the icon
+      disabled: true, // Flag to handle the style
     },
   ];
 }
