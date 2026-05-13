@@ -1,4 +1,4 @@
-<section class="py-20 bg-white dark:bg-[#0a0f1e] transition-colors duration-500">
+<section class="lg:py-20 bg-white dark:bg-[#0a0f1e] transition-colors duration-500">
   <div class="max-w-4xl mx-auto px-6 w-full">
     <div class="text-center mb-16 animate-fade-in">
       <h2 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
@@ -11,45 +11,47 @@
     </div>
 
     <!-- Contact Cards Grid -->
-    <div
-      *ngFor="let method of contactMethods"
-      class="flex items-center p-4 bg-white dark:bg-gray-800/40 rounded-2xl border border-gray-100 dark:border-gray-700/50 shadow-sm transition-transform hover:scale-105"
-    >
-      <!-- Icon Container -->
+    <div class="space-y-4">
       <div
-        [class]="
-          method.color +
-          ' w-12 h-12 flex items-center justify-center bg-gray-50 dark:bg-gray-900/50 rounded-xl mr-4 text-xl'
-        "
+        *ngFor="let method of contactMethods"
+        class="flex items-center p-4 bg-white dark:bg-gray-800/40 rounded-2xl border border-gray-100 dark:border-gray-700/50 shadow-sm transition-transform hover:scale-105"
       >
-        <i [class]="method.icon"></i>
-      </div>
-
-      <!-- Text Content -->
-      <div>
-        <p class="text-xs font-bold text-gray-400 uppercase tracking-widest">
-          {{ method.label }}
-        </p>
-
-        <!-- Clickable Link Logic -->
-        <ng-container
-          *ngIf="method.label === 'Telegram' || method.label === 'LinkedIn'; else plainText"
+        <!-- Icon Container -->
+        <div
+          [class]="
+            method.color +
+            ' w-12 h-12 flex items-center justify-center bg-gray-50 dark:bg-gray-900/50 rounded-xl mr-4 text-xl'
+          "
         >
-          <a
-            [href]="method.value"
-            target="_blank"
-            class="text-blue-600 dark:text-blue-400 font-medium hover:underline transition-all"
-          >
-            {{ method.label === 'Telegram' ? '@cheykimrith' : 'View Profile' }}
-          </a>
-        </ng-container>
+          <i [class]="method.icon"></i>
+        </div>
 
-        <!-- Plain Text for Location/Phone/Email -->
-        <ng-template #plainText>
-          <p class="text-gray-900 dark:text-white font-medium">
-            {{ method.value }}
+        <!-- Text Content -->
+        <div>
+          <p class="text-xs font-bold text-gray-400 uppercase tracking-widest">
+            {{ method.label }}
           </p>
-        </ng-template>
+
+          <!-- Clickable Link Logic -->
+          <ng-container
+            *ngIf="method.label === 'Telegram' || method.label === 'LinkedIn'; else plainText"
+          >
+            <a
+              [href]="method.value"
+              target="_blank"
+              class="text-blue-600 dark:text-blue-400 font-medium hover:underline transition-all"
+            >
+              {{ method.label === 'Telegram' ? '@cheykimrith' : 'View Profile' }}
+            </a>
+          </ng-container>
+
+          <!-- Plain Text for Location/Phone/Email -->
+          <ng-template #plainText>
+            <p class="text-gray-900 dark:text-white font-medium">
+              {{ method.value }}
+            </p>
+          </ng-template>
+        </div>
       </div>
     </div>
   </div>
