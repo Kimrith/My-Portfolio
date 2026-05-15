@@ -40,5 +40,15 @@
     "TRAINING": "Training",
     "STACK": "Stack",
     "CURRENTLTY": "Technologies I am currently mastering"
+  },
+  "project": {
+    "FEATURED": "Featured",
+    "TITLE": "Projects",
+    "SUBTITLE": "A selection of my recent full-stack developments"
+  },
+  "contact": {
+    "LETS": "Let's",
+    "CONNECT": "Connect",
+    "DESCRIPTION": "I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!"
   }
 }

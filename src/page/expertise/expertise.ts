@@ -19,11 +19,12 @@ export class Expertise {
   backendSkills = [
     { name: 'ASP.NET Core (.NET)', level: 50 },
     { name: 'Node.js/Express', level: 80 },
-    { name: 'NestJS', level: 80 },
+    { name: 'NestJS', level: 50 },
   ];
 
   databases = [
     { name: 'MySQL', level: 80 },
+    { name: 'SqlServer', level: 50 },
     { name: 'MongoDB', level: 80 },
     { name: 'PostgreSQL', level: 50 },
     { name: 'Github', level: 80 },
@@ -44,5 +45,7 @@ export class Expertise {
     { name: 'Flutter', logo: 'devicon-flutter-plain colored' },
     { name: 'ASP.NET Core', logo: 'devicon-dotnetcore-plain colored' },
     { name: 'PostgreSQL', logo: 'devicon-postgresql-plain colored' },
+    { name: 'SqlServer', logo: 'devicon-microsoftsqlserver-plain colored' },
+    { name: 'Nest', logo: 'devicon-nestjs-original colored' },
   ];
 }

@@ -1,9 +1,10 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
-  imports: [NgFor, NgIf],
+  imports: [NgFor, NgIf, TranslateModule],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })
