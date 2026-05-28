@@ -6,7 +6,7 @@ import { TranslateModule, TranslatePipe, TranslateService } from '@ngx-translate
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterLinkActive, TranslateModule],
+  imports: [CommonModule, RouterLink, TranslateModule],
   templateUrl: './header.html',
 })
 export class Header {
