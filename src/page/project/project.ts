@@ -20,15 +20,15 @@ export class Project {
     });
   }
   projects = [
-    {
-      title: 'Hotel Rental System',
-      description:
-        'A robust hospitality platform featuring RBAC dashboards for Admins, Owners, and Customers. Integrated with Google OAuth 2.0 for seamless SSO and secure payment gateways for real-time bookings.',
-      image: '/profile/hotelrental.png',
-      tech: ['Java Thymeleaf', 'PostgreSQL'],
-      link: '#',
-      github: '#',
-    },
+    // {
+    //   title: 'Hotel Rental System',
+    //   description:
+    //     'A robust hospitality platform featuring RBAC dashboards for Admins, Owners, and Customers. Integrated with Google OAuth 2.0 for seamless SSO and secure payment gateways for real-time bookings.',
+    //   image: '/profile/hotelrental.png',
+    //   tech: ['Java Thymeleaf', 'PostgreSQL'],
+    //   link: '#',
+    //   github: '#',
+    // },
     {
       title: 'POS & QR Order System',
       description:
