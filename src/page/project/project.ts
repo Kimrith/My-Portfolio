@@ -39,11 +39,10 @@ export class Project {
       github: '#',
     },
     {
-      title: 'Real-time Game Chat',
-      description:
-        'Multiplayer game platform featuring instant messaging and global chat rooms using WebSocket technology.',
-      image: '/profile/chat&game.png',
-      tech: ['React JS', 'Node.js', 'Socket.io', 'MongoDB'],
+      title: 'Ecommerce System',
+      description: 'E-commerce platform enabling seamless buying and selling with secure payment gateway integration, real-time order tracking, and dedicated dashboards for customers, sellers, and admins.',
+      image: '/profile/ecommerce.png',
+      tech: ['ASP.NET Core', 'Angular', 'KHQR API', 'SQL Server'],
       link: '#',
       github: '#',
     },
