@@ -29,15 +29,15 @@ export class Project {
     //   link: '#',
     //   github: '#',
     // },
-    {
-      title: 'POS & QR Order System',
-      description:
-        'Cafe management system with KHQR integration for real-time mobile payments and QR-based ordering.',
-      image: '/profile/ordersystem.png',
-      tech: ['.NET Core', 'ReactJs', 'KHQR API', 'SQL Server'],
-      link: '#',
-      github: '#',
-    },
+    // {
+    //   title: 'POS & QR Order System',
+    //   description:
+    //     'Cafe management system with KHQR integration for real-time mobile payments and QR-based ordering.',
+    //   image: '/profile/ordersystem.png',
+    //   tech: ['.NET Core', 'ReactJs', 'KHQR API', 'SQL Server'],
+    //   link: '#',
+    //   github: '#',
+    // },
     {
       title: 'Ecommerce System',
       description: 'E-commerce platform enabling seamless buying and selling with secure payment gateway integration, real-time order tracking, and dedicated dashboards for customers, sellers, and admins.',
