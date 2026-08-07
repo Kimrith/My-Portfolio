@@ -1,0 +1,54 @@
+{
+  "header": {
+    "PORTFOLIO": "Portfolio",
+    "HOME": "Home",
+    "ABOUT": "About Me",
+    "EXPERTISE": "Expertise",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
+  },
+  "home": {
+    "WELCOME": "Welcome to my portfolio!",
+    "NAME": "My name is Chey Kimrith.",
+    "TITLE": "Web Developer building scalable, high-performance web experiences focused on speed, accessibility, and clean UI design.",
+    "VIEW_WORK": "View My Work",
+    "CONTACT": "Contact Me"
+  },
+  "about": {
+    "SECTION_TITLE": "About",
+    "SECTION_SUB": "Me",
+    "NAME": "My name is Chay Kimrith",
+    "TITLE": "Full-Stack Developer",
+    "DOWNLOAD_CV": "Download Resume",
+    "EXPERIENCE": "Experience",
+    "GOV_INFO": "Ministry of Interior",
+    "MOI_INFO": "3 Months Intern • 2026",
+    "MOI_DESC": "Developed responsive and user-friendly web applications, gaining hands-on experience in government-scale projects.",
+    "EDUCATION": "Education",
+    "SETEC": "SETEC Institute",
+    "SETEC_INFO": "Year 4 Student • Management Information Systems",
+    "SETEC_DESC": "Deepening knowledge in Full-Stack development, Database management, and Software Architecture"
+  },
+  "expertise": {
+    "TECHNICAL": "Technical",
+    "EXPERTISE": "Expertise",
+    "DESCRIPTION": "My technical stack and proficiency levels",
+    "FRONTEND": "Frontend Development",
+    "BACKEND": "Backend & Systems",
+    "DATABASE": "Databases & Tools",
+    "INTEGRATIONS": "Third-Party Integrations",
+    "TRAINING": "Training",
+    "STACK": "Stack",
+    "CURRENTLTY": "Technologies I am currently mastering"
+  },
+  "project": {
+    "FEATURED": "Featured",
+    "TITLE": "Projects",
+    "SUBTITLE": "A selection of my recent full-stack developments"
+  },
+  "contact": {
+    "LETS": "Let's",
+    "CONNECT": "Connect",
+    "DESCRIPTION": "I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, my inbox is always open!"
+  }
+}

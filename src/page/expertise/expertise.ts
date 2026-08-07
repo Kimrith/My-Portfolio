@@ -10,25 +10,25 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class Expertise {
   frontendSkills = [
-    { name: 'React JS', level: 80 },
-    { name: 'Angular', level: 90 },
-    { name: 'Tailwind CSS / Bootstrap', level: 90 },
-    { name: 'JavaScript / TypeScript', level: 80 },
+    { name: 'React JS', icon: 'devicon-react-original colored' },
+    { name: 'Angular', icon: 'devicon-angular-plain colored' },
+    { name: 'Tailwind CSS / Bootstrap', icon: 'devicon-tailwindcss-original colored' },
+    { name: 'JavaScript / TypeScript', icon: 'devicon-typescript-plain colored' },
   ];
 
   backendSkills = [
-    { name: 'ASP.NET Core (.NET)', level: 50 },
-    { name: 'Node.js/Express', level: 80 },
-    { name: 'NestJS', level: 50 },
+    { name: 'ASP.NET Core (.NET)', icon: 'devicon-dotnetcore-plain colored' },
+    { name: 'Node.js/Express', icon: 'devicon-nodejs-plain colored' },
+    { name: 'NestJS', icon: 'devicon-nestjs-original colored' },
   ];
 
   databases = [
-    { name: 'MySQL', level: 80 },
-    { name: 'SqlServer', level: 50 },
-    { name: 'MongoDB', level: 80 },
-    { name: 'PostgreSQL', level: 50 },
-    { name: 'Github', level: 80 },
-    { name: 'Docker', level: 80 },
+    { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
+    { name: 'SqlServer', icon: 'devicon-microsoftsqlserver-plain colored' },
+    { name: 'MongoDB', icon: 'devicon-mongodb-plain colored' },
+    { name: 'PostgreSQL', icon: 'devicon-postgresql-plain colored' },
+    { name: 'Github', icon: 'devicon-github-original text-slate-800 dark:text-slate-200' },
+    { name: 'Docker', icon: 'devicon-docker-plain colored' },
   ];
 
   intergrates = [
@@ -39,13 +39,9 @@ export class Expertise {
   ];
 
   learningStack = [
-    { name: 'PHP & Laravel', logo: 'devicon-laravel-original colored' },
+    { name: 'Laravel', logo: 'devicon-laravel-plain colored' },
     { name: 'Python', logo: 'devicon-python-plain colored' },
     { name: 'Java Spring Boot', logo: 'devicon-spring-original colored' },
     { name: 'Flutter', logo: 'devicon-flutter-plain colored' },
-    { name: 'ASP.NET Core', logo: 'devicon-dotnetcore-plain colored' },
-    { name: 'PostgreSQL', logo: 'devicon-postgresql-plain colored' },
-    { name: 'SqlServer', logo: 'devicon-microsoftsqlserver-plain colored' },
-    { name: 'Nest', logo: 'devicon-nestjs-original colored' },
   ];
 }
