@@ -20,29 +20,21 @@ export class Project {
     });
   }
   projects = [
-    // {
-    //   title: 'Hotel Rental System',
-    //   description:
-    //     'A robust hospitality platform featuring RBAC dashboards for Admins, Owners, and Customers. Integrated with Google OAuth 2.0 for seamless SSO and secure payment gateways for real-time bookings.',
-    //   image: '/profile/hotelrental.png',
-    //   tech: ['Java Thymeleaf', 'PostgreSQL'],
-    //   link: '#',
-    //   github: '#',
-    // },
-    // {
-    //   title: 'POS & QR Order System',
-    //   description:
-    //     'Cafe management system with KHQR integration for real-time mobile payments and QR-based ordering.',
-    //   image: '/profile/ordersystem.png',
-    //   tech: ['.NET Core', 'ReactJs', 'KHQR API', 'SQL Server'],
-    //   link: '#',
-    //   github: '#',
-    // },
+    {
+      title: 'School Management System',
+      description:
+        'Hybrid web and desktop school platform featuring role-based access for admins, teachers, and students, handling admissions, attendance, fee tracking, and automated PDF report cards.',
+      image: '/profile/sms.png',
+      tech: ['Laravel', 'NativePHP', 'Electron', 'Tailwind CSS', 'PHPUnit'],
+      link: '#',
+      github: '#',
+    },
     {
       title: 'Ecommerce System',
-      description: 'E-commerce platform enabling seamless buying and selling with secure payment gateway integration, real-time order tracking, and dedicated dashboards for customers, sellers, and admins.',
+      description:
+        'E-commerce platform enabling seamless buying and selling with secure payment gateway integration, real-time order tracking, and dedicated dashboards for customers, sellers, and admins.',
       image: '/profile/ecommerce.png',
-      tech: ['ASP.NET Core', 'Angular', 'KHQR API', 'SQL Server'],
+      tech: ['ASP.NET Core', 'Angular', 'KHQR API', 'SQL Server', 'SPA Architecture'],
       link: '#',
       github: '#',
     },
