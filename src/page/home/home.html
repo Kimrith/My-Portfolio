@@ -24,19 +24,20 @@
         </p>
       </div>
 
-      <div class="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
-        <a href="https://github.com/Kimrith">
-          <button
-            class="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full font-semibold text-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(147,51,234,0.3)] active:scale-95"
-          >
-            {{ 'home.VIEW_WORK' | translate }}
-          </button>
+      <div class="flex flex-col sm:flex-row gap-4 pt-4 justify-center md:justify-start">
+        <a
+          href="https://github.com/Kimrith"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent bg-gradient-to-r from-purple-600 to-blue-600 rounded-full font-semibold text-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(147,51,234,0.3)] active:scale-95 text-center"
+        >
+          {{ 'home.VIEW_WORK' | translate }}
         </a>
 
         <button
           routerLink="/"
           fragment="contact"
-          class="w-full sm:w-auto px-8 py-3 border border-gray-300 dark:border-gray-700 rounded-full font-semibold text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-white/5 transition-colors active:scale-95"
+          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-gray-300 dark:border-gray-700 rounded-full font-semibold text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-white/5 transition-colors active:scale-95 text-center"
         >
           {{ 'home.CONTACT' | translate }}
         </button>
