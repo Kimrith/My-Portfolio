@@ -85,8 +85,12 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div *ngFor="let database of databases"
             class="flex items-center p-4 rounded-2xl border border-gray-100/50 dark:border-gray-800/30 hover:border-emerald-500/30 bg-gray-50/30 dark:bg-[#131d31]/20 hover:bg-emerald-500/5 dark:hover:bg-emerald-500/5 transition-all duration-300 group/item">
-            <i
+            <i *ngIf="database.icon"
               [class]="database.icon + ' text-2xl mr-3 group-hover/item:scale-110 transition-transform duration-300'"></i>
+            <img *ngIf="database.image"
+              [src]="database.image"
+              [alt]="database.name"
+              class="w-6 h-6 mr-3 object-contain group-hover/item:scale-110 transition-transform duration-300" />
             <span class="text-base font-semibold text-gray-700 dark:text-gray-200">
               {{ database.name }}
             </span>

@@ -29,6 +29,14 @@ export class Project {
       link: '#',
       github: '#',
     },
+{
+      title: 'Flutter E-Commerce App',
+      description: 'Cross-platform mobile application featuring real-time Bakong KHQR payment integration and REST API backend.',
+      image: '/profile/flutter.png',
+      tech: ['Flutter', 'NestJS', 'PostgreSQL', 'Prisma ORM'],
+      link: '#',
+      github: '#',
+    },
     {
       title: 'Ecommerce System',
       description:

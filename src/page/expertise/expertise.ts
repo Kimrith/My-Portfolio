@@ -22,13 +22,15 @@ export class Expertise {
     { name: 'NestJS', icon: 'devicon-nestjs-original colored' },
   ];
 
-  databases = [
+  databases: Array<{ name: string; icon?: string; image?: string }> = [
     { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
     { name: 'SqlServer', icon: 'devicon-microsoftsqlserver-plain colored' },
     { name: 'MongoDB', icon: 'devicon-mongodb-plain colored' },
     { name: 'PostgreSQL', icon: 'devicon-postgresql-plain colored' },
-    { name: 'Github', icon: 'devicon-github-original text-slate-800 dark:text-slate-200' },
+    { name: 'AWS', icon: 'devicon-amazonwebservices-plain-wordmark colored' },
     { name: 'Docker', icon: 'devicon-docker-plain colored' },
+    { name: 'Namecheap', image: '/profile/namecheap.svg' },
+    { name: 'Github', icon: 'devicon-github-original text-slate-800 dark:text-slate-200' },
   ];
 
   intergrates = [
